@@ -1,0 +1,91 @@
+
+@import url(common.css);
+
+/******************** Global ********************/
+
+a {
+  font-size: 1.8rem;
+}
+
+h2 {
+  font-size: 5rem;
+}
+
+p {
+  font-size: 1.5rem;
+}
+
+/*************** Nav Page Accueil ***************/
+
+#navAccueil {
+  background-image: url(../img/s1b1.jpeg);
+}
+#navAPropos {
+  background-image: url(../img/s1b2.jpeg);
+}
+#navContact {
+  background-image: url(../img/s1b3.jpeg);
+}
+
+main nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5em;
+}
+
+main nav div {
+  width: 30%;
+  height: 12em;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+}
+
+main nav a {
+  color: white;
+  background-color: black;
+  padding: 0.2em;
+  border-radius: 5px;
+  text-transform: uppercase;
+}
+
+/******************* Sections *******************/
+
+#section1, #section2 {
+  display: flex;
+  margin: 1rem 0 5rem;
+}
+
+#section1 figure {
+  width: 50%;
+  color: white;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h2, figcaption, audio {
+  padding: 1.5rem;
+}
+
+figcaption {
+  line-height: 2rem;
+}
+
+#section1 img {
+  width: 50%;
+}
+
+#section2 video {
+  width: 40%;
+}
+
+#section2 img {
+  width: 60%;
+}
