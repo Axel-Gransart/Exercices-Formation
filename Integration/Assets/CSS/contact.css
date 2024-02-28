@@ -1,0 +1,24 @@
+@import url(common.css);
+
+/******************** Global ********************/
+
+h1 {
+  font-size: 10rem;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-size: 3.2rem;
+}
+
+input {
+  height: 16px;
+}
+
+button {
+  height: 20px;
+}
+
+
+/********************* Main *********************/
+/******************* Section 1 ******************/

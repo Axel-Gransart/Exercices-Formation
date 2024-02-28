@@ -1,0 +1,102 @@
+
+@import url(common.css);
+
+/******************** Global ********************/
+
+h1, h2 {
+  font-size: 3rem;
+  text-transform: uppercase;
+}
+
+
+/********************* Main *********************/
+/******************* Section 1 ******************/
+
+section:first-child {
+  width: 90%;
+  height: 500px;
+  margin: 3rem auto;
+  padding: 10rem 4rem;
+  background-image: url(../img/s1b3.jpeg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+  color: white;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+section:first-child h1, section:first-child p {
+  background-color: rgba(0, 0, 0, 0.8);
+  border-radius: 5px;
+  padding: 1rem;
+}
+
+section:first-child p {
+  padding: 1rem 2rem;
+}
+
+/******************* Section 2 ******************/
+
+section:nth-child(2) {
+  background-image: url(../img/s2b2.jpeg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  text-align: center;
+  padding: 10rem 5rem;
+}
+
+section:nth-child(2) div {
+  width: 30%;
+}
+
+section:nth-child(2) h2 {
+  margin: 2rem 0;
+}
+
+section:nth-child(2) p {
+  text-align: justify;
+}
+
+/******************* Section 3 ******************/
+
+section:last-child {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 5rem 0;
+}
+
+section:last-child h3 {
+  color: white;
+  font-size: 2rem;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 5rem;
+}
+
+section:last-child a {
+  width: 30%;
+  height: 400px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+section:last-child a:nth-child(2) {
+  background-image: url(../img/s1b3.jpeg); 
+}
+section:last-child a:nth-child(3) {
+  background-image: url(../img/s3b2.jpeg);
+}
+section:last-child a:last-child {
+  background-image: url(../img/s1b2.jpeg);
+}
