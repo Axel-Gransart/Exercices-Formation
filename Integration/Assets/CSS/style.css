@@ -52,7 +52,7 @@ main nav a {
   margin: 1rem 0 5rem;
 }
 
-#section1 figure {
+#section1 div {
   width: 50%;
   color: white;
   text-align: center;
@@ -62,11 +62,11 @@ main nav a {
   align-items: center;
 }
 
-h2, figcaption, audio {
+h2, p, audio {
   padding: 1.5rem;
 }
 
-figcaption {
+p {
   line-height: 2rem;
 }
 

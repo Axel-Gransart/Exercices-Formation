@@ -65,6 +65,10 @@ footer {
   margin: 5rem 0;
 }
 
+footer hr {
+  color: grey !important;
+}
+
 footer div {
   width: 33.33%;
   height: 10rem;
