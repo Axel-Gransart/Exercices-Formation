@@ -1,0 +1,243 @@
+
+/******************** Import Reset ********************/
+
+@import url(../../../reset.css);
+
+/******************** Import Fonts ********************/
+
+.philosopher-regular {
+  font-family: "Philosopher", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.philosopher-bold {
+  font-family: "Philosopher", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.philosopher-regular-italic {
+  font-family: "Philosopher", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.philosopher-bold-italic {
+  font-family: "Philosopher", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+/*********************** Global ***********************/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+:root {
+  font-size: 62.5%;
+  font-family: "Philosopher", sans-serif;
+}
+
+a, li {font-size: 1.5rem; color: black;}
+
+p, footer {font-size: 1.4rem;}
+
+h1 {font-size: 2.1rem; color: #A55222; font-family: "Philosopher", sans-serif;}
+
+h2 {font-size: 1.5rem; font-family: "Philosopher", sans-serif;}
+
+/*********************** Header ***********************/
+
+header, header div, header nav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: .5rem 0;
+}
+
+header div {
+  height: 18rem;
+  justify-content: space-around;
+}
+
+header nav {
+  font-weight: bold;
+  width: 100%;
+}
+header nav a {
+  width: 100%;
+  /* height: 2rem; */
+  padding: 1rem;
+  margin: .1rem 0;
+  text-transform: uppercase;
+  text-align: center;
+  background-color: #E2E2E2;
+}
+
+/************************ Main ************************/
+
+/********************* Section 1 **********************/
+
+main > section:first-child {
+  width: 80%;
+  margin: 2rem auto;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 2rem;
+}
+
+main > section:first-child h2 {
+  text-align: center;
+  padding: 1rem 4rem;
+  margin-bottom: 1rem;
+}
+
+main > section:first-child img {
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+main > section:first-child p {
+  margin: 1rem 0;
+  line-height: 18px;
+}
+
+/*************** Section 2 / Section 3 ****************/
+
+#mediaTablet {
+  display: none;
+}
+
+/*********************** Footer ***********************/
+
+footer {
+  border-top: 2px solid #E2E2E2;
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/******************************************************/
+/******************* Media Queries ********************/
+/******************************************************/
+
+@media screen and (min-width: 768px) and (max-width: 1199.99px) {
+
+  h1 {font-size: 3rem;}
+  h2 {font-size: 2rem;}
+  h3 {font-size: 1.7rem;}
+
+  header nav {
+    flex-direction: row;
+    }
+
+  #mediaTablet {
+    display: flex;
+    border-top: 2px solid #E2E2E2;
+    margin-bottom: 6rem;
+  }
+
+  #mediaTablet section {
+    width: 50%;
+   padding: 1rem 4rem;
+  }
+
+  #mediaTablet h2 {
+    border-bottom: 2px solid #E2E2E2;
+    width: 100%;
+    padding: 1rem;
+    color: #311312;
+  }
+
+  #mediaTablet section div  {
+    padding: 2rem 1rem;
+  }
+
+  #mediaTablet section:first-child {
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;   
+  }
+
+  #mediaTablet section ol {
+    width: 100%;
+    line-height: 20px;
+    padding: 2rem 2rem;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+
+  h1 {font-size: 2.2rem;}
+  h2, h3 {font-size: 1.8rem;}
+
+  header {
+    border-bottom: 2px solid #E2E2E2;
+  }
+
+  header, header div, header nav {
+    flex-direction: row;
+  }
+
+  header div h1 {
+    margin-left: 3rem;
+  }
+    
+  header div {
+    width: 60%;
+    height: 12rem;
+    justify-content: flex-start;
+    padding: 1rem 3rem;
+  }
+
+  header nav {
+    width: 40%;
+  }
+
+  header nav a {
+    background-color: transparent;
+  }
+
+  main {
+    display: flex;
+  }
+
+  main > section:first-child {
+    width: 60%;
+  }
+
+  #mediaTablet {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+  }
+
+  #mediaTablet section {
+    width: 100%;
+    height: 50%;
+   padding: 1rem 2rem;
+   padding-left: 18rem;
+  }
+
+  #mediaTablet h2 {
+    border-bottom: 2px solid #E2E2E2;
+    width: 100%;
+    padding: 1rem;
+    color: #311312;
+  }
+  
+  #mediaTablet section div  {
+    padding: 2rem 1rem;
+  }
+  #mediaTablet section ol {
+    width: 100%;
+    line-height: 20px;
+    padding: 2rem 2rem;
+  }
+}
