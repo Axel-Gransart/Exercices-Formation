@@ -203,10 +203,6 @@ footer {
     padding: 1rem 3rem;
   }
 
-  header nav {
-    /* width: 40%; */
-  }
-
   header nav a {
     background-color: transparent;
   }
