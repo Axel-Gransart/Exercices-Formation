@@ -22,3 +22,39 @@ button {
 
 /********************* Main *********************/
 /******************* Section 1 ******************/
+
+section:first-child {
+  background-image: url(../img/s1b3.jpeg);
+  background-position: center;
+  background-size: cover;
+  color: white;
+}
+
+section:first-child h1 {
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+section:last-child form {
+  background-color: #010101;
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  margin: 0 auto;
+}
+
+label, input, textarea {
+  margin-bottom: 2rem;
+  background-color: transparent;
+  border: unset;
+  color: white;
+  outline: none;
+}
+
+textarea {
+  resize: vertical;
+}
+
+input, textarea {
+  border-bottom: 3px solid #191919;
+}
+
