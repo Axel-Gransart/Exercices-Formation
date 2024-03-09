@@ -45,7 +45,7 @@ header p, footer p {
 
 #background {
   background-image: url(../images/hero-image.jpg);
-  background-position: center;
+  background-position: top;
   background-repeat: no-repeat;
   background-size: cover; 
 }
@@ -55,9 +55,14 @@ header p, footer p {
   height: 5rem;
 }
 
-main section:first-child img {
-  width: 7rem;
-  height: 7rem;
+main section:first-child article {
+  background-color: white;
+  height: 20rem;
+}
+
+article a {
+  width: 100%;
+  height: 100%;
 }
 
 footer {
