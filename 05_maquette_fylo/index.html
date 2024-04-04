@@ -12,7 +12,7 @@
     <title>Site Fylo</title>
   </head>
 
-  <body class=" text-center ">
+  <body class=" text-center text-xxl-start">
     <header class="d-flex justify-content-between p-5">
       <img src="assets/img/logo.svg" alt="Logo du site">
       <nav class="nav">
@@ -22,88 +22,109 @@
       </nav>
     </header>
     <main>
-      <div class="container pb-5">
-        <div>
+      <div class="px-xxl-5 pb-5 d-xxl-flex flex-xxl-row-reverse text-xxl-start ">
+        <div class="col-xxl-6 ">
           <img class="w-100 py-5" src="assets/img/illustration-1.svg" alt="illustration fichier et dossier">
-          <h2 class="fw-bold py-5">All your files in one secure location, accessible anywhere</h2>
         </div>
-        <div class="px-5">
-          <p class="px-5">Fylo stores you most important files in one secure location. Access them wherever you nees, share and collaborate with friends, family, and co-workers.</p>
-          <form>
-            <div class="mb-3">
-              <input type="email" class="form-control border-primary" id="emailForm" placeholder="Enter your email...">
+        <div class="container-sm col-xxl-6 pt-xxl-5 px-xxl-3 ">
+          <h1 class="fw-bold py-5">All your files in one secure location, accessible anywhere.</h1>
+          <p class="pe-xxl-5 pb-xxl-4 ">Fylo stores you most important files in one secure location. Access them wherever you nees, share and collaborate with friends, family, and co-workers.</p>
+          <form class="d-xxl-flex justify-content-between  ">
+            <div class="mb-3 col-xxl-7 ">
+              <input type="email" class="form-control border-primary  p-3" id="emailForm" placeholder="Enter your email...">
             </div>
-            <button type="submit" class="btn btn-primary w-100">Get Started</button>
+            <div class=" col-xxl-4">
+              <button type="submit" class="btn btn-primary w-100  p-3">Get Started</button>
+            </div>
           </form>
         </div>
       </div>
       <div class="mt-5 pt-3 ">
-        <img class="w-100 " src="assets/img/bg-curve-mobile.svg" alt="curving">
+        <img class="w-100 bgMobile" src="assets/img/bg-curve-mobile.svg" alt="curving">
+        <img class="w-100 bgDesktop" src="assets/img/bg-curve-desktop.svg" alt="curving">        
         <div class="bgGray pb-5" >
-          <div class="px-5">
-            <img class="w-100 py-5" src="assets/img/illustration-2.svg" alt="illustration personnes avec bulle de commentaires">
-            <h2>Stay productive, wherever you are</h2>
-          </div>
-          <div class="container textLeft">
-            <p>Never let location be an issue when accessing your files. Fylo has you covered for all of file strorage needs.</p>
-            <p>Securely share files and folders with friends, family and colleagues for live collaboration. No email attachements required!</p>
-          </div>
-          <div class="my-5 ">
-            <button type="button" class="btn text-success fs-3">See how Fylo works  <i class="ps-2 fs-3 bi bi-arrow-right-circle-fill"></i></button>
-          </div>
-          <div class="w-75 card mx-auto textLeft my-5 ">
-            <div class="card-body">
-              <i class="bi bi-quote fs-3"></i>
-              <p class="card-text">Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has becom a well-oiled collaboration machine.</p>
-              <div class="row">
-                <img class="col-3  " src="assets/img/avatar-testimonial.jpg" alt="photo de kyle Burton">
-                <div class="col-9 ">
-                  <h4 class="fw-bold ">Kyle Burton</h4>
-                  <p>Founder & CEO, Huddle</p>
+          <div class="container-sm px-xxl-5 d-xxl-flex flex-xxl-row-reverse">
+            <div class="px-5">
+              <img class="w-100 py-5" src="assets/img/illustration-2.svg" alt="illustration personnes avec bulle de commentaires">
+            </div>
+            <div>
+              <div class="">
+                <h2 class="fw-bold py-5">Stay productive, wherever you are</h2>
+                <div class="textLeft">
+                  <p>Never let location be an issue when accessing your files. Fylo has you covered for all of file strorage needs.</p>
+                  <p>Securely share files and folders with friends, family and colleagues for live collaboration. No email attachements required!</p>
+                </div>
+              </div>
+              <div class="my-5  text-xxl-start">
+                <button type="button" class="btn text-success fs-3">See how Fylo works  <i class="ps-2 fs-3 bi bi-arrow-right-circle-fill"></i></button>
+              </div>
+              <div class="w-75 card mx-auto textLeft my-5 mx-xxl-0  ">
+                <div class="card-body p-3">
+                  <i class="bi bi-quote fs-3"></i>
+                  <p class="card-text">Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has become a well-oiled collaboration machine.</p>
+                  <div class="row pt-4  align-items-center ">
+                    <img class="col-3  " src="assets/img/avatar-testimonial.jpg" alt="photo de kyle Burton">
+                    <div class="col-9 ps-3 ">
+                      <h4 class="fw-bold pb-2  ">Kyle Burton</h4>
+                      <p>Founder & CEO, Huddle</p>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-        <div class="bgPurple py-5 text-white">
-          <div class="w-75 mx-auto ">
-            <h2 class="py-4">Get early access today</h2>
+        <div class="bgPurple py-5 text-white d-xxl-flex px-xxl-5 justify-content-xxl-between align-items-xxl-start    ">
+          <div class="container-sm mx-auto col-xxl-6 ms-xxl-0 pe-xxl-3 ">
+            <h2 class="fw-bold py-5 py-xxl-3 ">Get early access today</h2>
             <p>it only takes a minute to sign up and our free starter tier is extremely generous. If you have any questions, our support team would be happy to help you.</p>
+          </div>
+          <div class="container-sm col-xxl-5">
             <form class="pt-3 pb-5 ">
               <div class="mb-3">
-                <input type="email" class="form-control border-primary" id="emailForm" placeholder="email@exemple.com">
+                <input type="email" class="form-control border-primary p-3" id="emailForm" placeholder="email@exemple.com">
               </div>
-              <button type="submit" class="btn btn-primary w-100">Get Started For Free</button>
+              <div class="col-xxl-5 ">
+                <button type="submit" class="btn p-3 btn-primary w-100">Get Started For Free</button>
+              </div>
             </form>
           </div>
         </div>
       </div>        
     </main>
-    <footer class="bgMidnightPurple textLeft ps-5 text-white">
-      <img class="my-5 " src="assets/img/logo_w.svg" alt="Logo blanc">
-      <div class="d-flex justify-content-start ">
-        <i class="bi bi-telephone-fill pe-3"></i>
-        <p>Phone: +1-543-123-4567</p>
-      </div>
-      <div class="d-flex justify-content-start ">
-        <i class="bi bi-envelope-at-fill pe-3"></i>
-        <p>example@fylo.com</p>
-      </div>
-      <div class="mb-3 ">
-        <ul class="ms-0 ps-0 mt-3 ">
-          <li>About Us</li>
-          <li>Jobs</li>
-          <li>Press</li>
-          <li>Blog</li>
-          <li>Contact Us</li>
-          <li>Terms</li>
-          <li>Privacy</li>
-        </ul>
-      </div>
-      <div class=" d-flex col-3 justify-content-between mx-auto pb-5  ">
-        <a href="#"><i class="bi bi-facebook fs-1"></i></a>
-        <a href="#"><i class="bi bi-twitter-x fs-1"></i></a>
-        <a href="#"><i class="bi bi-instagram fs-1"></i></a>
+    <footer class="bgMidnightPurple textLeft ps-5 text-white ps-xxl-0 ">
+      <img class="my-5 ps-xxl-5 mb-xxl-0 " src="assets/img/logo_w.svg" alt="Logo blanc">
+      <div class="d-xxl-flex px-xxl-5 align-items-xxl-baseline ">
+        <div class="col-xxl-3 ">
+          <div class="d-flex justify-content-start ">
+            <i class="bi bi-telephone-fill pe-3"></i>
+            <p>Phone: +1-543-123-4567</p>
+          </div>
+          <div class="d-flex justify-content-start ">
+            <i class="bi bi-envelope-at-fill pe-3"></i>
+            <p>example@fylo.com</p>
+          </div>
+        </div>
+        <div class="mb-3 col-xxl-3 ps-xxl-5 ">
+          <ul class="ms-0 ps-0 mt-3 ">
+            <li>About Us</li>
+            <li>Jobs</li>
+            <li>Press</li>
+            <li>Blog</li>
+          </ul>
+        </div>
+        <div class="mb-3 col-xxl-3 ps-xxl-5">
+          <ul class="ms-0 ps-0 mt-3 ">
+            <li>Contact Us</li>
+            <li>Terms</li>
+            <li>Privacy</li>
+          </ul>
+        </div>
+        <div class=" d-flex col-3 justify-content-around mx-auto pb-5 col-xxl-3 ">
+          <a href="#"><i class="bi bi-facebook fs-3"></i></a>
+          <a href="#"><i class="bi bi-twitter-x fs-3"></i></a>
+          <a href="#"><i class="bi bi-instagram fs-3"></i></a>
+        </div>
       </div>
     </footer>
     <!-- Bootstrap JavaScript Libraries -->

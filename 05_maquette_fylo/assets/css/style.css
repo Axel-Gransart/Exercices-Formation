@@ -5,6 +5,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 
 * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
   list-style: none;
   text-decoration: none;
 }
@@ -32,6 +35,10 @@ a {
   color: white !important;
 }
 
+.bgDesktop {
+  display: none;
+}
+
 .bgGray {
   background-color: var(--Light-grayish-blue);
 }
@@ -57,10 +64,16 @@ button.text-success {
   border-radius: 50%;
 }
 
-ul li {
-  padding: 0.5rem 0;
+footer ul li {
+  padding-bottom: 1rem !important;
 }
 
-ul li:nth-child(4) {
-  padding-bottom: 1.5rem !important;
+@media screen and (min-width:1400px) {
+  .bgMobile {
+    display: none;
+  }
+
+  .bgDesktop {
+    display: block;
+  }
 }
