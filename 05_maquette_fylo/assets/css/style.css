@@ -59,6 +59,26 @@ button.text-success {
   border-bottom: 2px solid #198754;
 }
 
+.notGood {
+ border-color: red !important;
+}
+
+.good {
+  border-color: green !important;
+}
+
+.notGood + small {
+  color: red;
+}
+
+.good + small {
+  color: green;
+}
+
+
+
+
+
 .card .row img {
   width: 100px;
   border-radius: 50%;
@@ -67,6 +87,7 @@ button.text-success {
 footer ul li {
   padding-bottom: 1rem !important;
 }
+
 
 @media screen and (min-width:1400px) {
   .bgMobile {
