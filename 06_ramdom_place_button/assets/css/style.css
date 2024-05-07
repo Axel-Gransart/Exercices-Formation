@@ -1,0 +1,17 @@
+
+section {
+  width: 100%;
+  height: 75vh;
+}
+
+#divButton {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+#yes {
+  position: absolute;
+  left: 47.75%;
+  top: 10%;
+}
